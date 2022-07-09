@@ -473,3 +473,203 @@ html {
 .path:hover {
     fill: #5373FD;
 }
+
+/*Screen*/
+
+@media only screen and (min-width: 1024px) {
+    .nav-menu {
+        padding-left: 17%;
+    }
+
+    .nav-title {
+        padding-left: 5%;
+    }
+
+    .why-content {
+        padding-left: 5%;
+    }
+
+    .why-text {
+        width: 550px;
+    }
+
+    .first-img {
+        padding-left: 7%;
+    }
+
+    .second-img {
+        padding-left: 13%;
+    }
+
+    .card {
+        width: 550px;
+        height: 372px;
+    }
+
+    .content-first {
+        padding-left: 3%;
+    }
+
+    .content-second {
+        padding-left: 43%;
+    }
+
+    .card-text {
+        width: 486px;
+        height: 112px;
+        padding-bottom: 44px;
+    }
+
+    .review {
+        width: 960px;
+        height: 336px;
+    }
+
+    .photo {
+        height: 336px;
+        width: 507px;
+    }
+
+    .about {
+        width: 520px;
+        height: 196px;
+    }
+
+    .footer-title {
+        padding-top: 8%;
+        padding-left: 43%;
+    }
+
+    .footer-item {
+        padding-left: 42%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .nav {
+        width: 768px;
+        height: 136px;
+    }
+
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .nav-title {
+        padding-left: 0%;
+        padding-bottom: 32px;
+    }
+
+    .nav-menu {
+        padding-left: 0%;
+        gap: 40px;
+    }
+
+    .why-container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 768px;
+        height: 659px;
+    }
+
+    .why-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 720px;
+        height: 219px;
+    }
+
+    .first-img {
+        padding-top: 160px;
+        padding-bottom: 0px;
+        padding-left: 4%;
+        width: 348px;
+        height: 219px;
+    }
+
+    .second-img {
+        padding-left: 2%;
+        padding-top: 160px;
+        padding-bottom: 0px;
+        width: 348px;
+        height: 219px;
+    }
+
+    .why-content {
+        padding-left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-text {
+        width: 720px;
+        text-align: center;
+    }
+
+    #steps {
+        width: 768px;
+        height: 658px;
+    }
+
+    .icon-boxes {
+        display: flex;
+        flex-direction: column;
+        background: none;
+    }
+
+    .icon-box {
+        padding-top: 60px;
+    }
+
+    .card {
+        width: 720px;
+        height: 348px;
+    }
+
+    .content-second {
+        padding-left: 3%;
+    }
+
+    .feedback-title {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .review {
+        width: 720px;
+        height: 644px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo {
+        width: 720px;
+        height: 336px;
+    }
+
+    .name {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .about {
+        height: 168px;
+        width: 600px;
+    }
+
+    .footer-title {
+        padding-top: 10%;
+        padding-left: 40%;
+    }
+
+    .footer-item {
+        padding-left: 38%;
+    }
+
+    
+}

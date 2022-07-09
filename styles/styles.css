@@ -1,0 +1,475 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*Header*/
+
+#header {
+    width: 100%;
+    height: 862px;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 295px;
+}
+
+.header-item {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 108%;
+    text-transform: uppercase;
+}
+
+.header-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 127%;
+    letter-spacing: 0.31em;
+    color: #FFFFFF;
+}
+
+.header-form {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: ;
+}
+
+.inner-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#search {
+    width: 530px;
+    height: 60px;
+    border-right: 1px solid white;
+}
+
+::-webkit-input-placeholder {
+    width: 277px;
+    height: 20px;
+    padding-left: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.2em;
+    color: #999999;
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    padding-top: 13%;
+}
+
+.btn-search {
+    width: 139px;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    padding: 16px 24px;
+    cursor: pointer;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    background: #5373FD;
+    border-left: 1px solid white;
+    align-items: center;
+}
+
+.scroll-down {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 102px;
+    height: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+/*navigation*/
+
+.nav {
+    width: 100%;
+    height: 84px;
+    background-color: #5373FD;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+}
+
+
+
+.nav-title {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 15%;
+    align-content: center;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-left: 30%;
+}
+
+.nav-link {
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    gap: 40px;
+    text-decoration: none;
+}
+
+/*Section 'Why'*/
+
+#why {
+    width: 100%;
+    height: 704px;
+}
+
+.why-content {
+    display: flex;
+    flex-direction: column;
+    width: 648px;
+    height: 324px;
+    justify-content: center;
+    padding-top: 190px;
+    padding-left: 15%;
+}
+
+.why-title {
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 111%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.why-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+.why-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.why-btn {
+    width: 213px;
+    height: 60px;
+    background: #5373FD;
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.first-img {
+    padding-top: 124px;
+    padding-left: 10%;
+    padding-bottom: 16px;
+}
+
+.second-img {
+    padding-left: 20%;
+}
+
+/*Section 'Steps'*/
+
+#steps {
+    width: 100%;
+    height: 306px;
+    background: #333333;
+}
+
+.icon-boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    width: 424px;
+    height: 139px;
+    align-items: center;
+    padding-top: 122px;
+}
+
+.icon-title {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 111%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/*Sections 'Book Now'*/
+
+#book-now-first,
+#book-now-second {
+    width: 100%;
+    height: 684px;
+}
+
+.content-first,
+.content-second {
+    padding-top: 220px;
+}
+
+.content-first {
+    padding-left: 3%;
+}
+
+.content-second {
+    padding-left: 60%;
+}
+
+.card {
+    width: 648px;
+    height: 344px;
+    background: rgba(35, 35, 35, 0.9);
+    display: flex;
+    flex-direction: column;
+}
+
+.country {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding-top: 44px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+}
+
+.card-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+    padding-left: 32px;
+}
+
+.card-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    padding-left: 32px;
+}
+
+.card-btn {
+    background: #5373FD;
+    width: 213px;
+    height: 60px;
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 32px;
+}
+
+/*Section 'Feedback'*/
+
+#feedback {
+    width: 100%;
+    height: 680px;
+}
+
+.feedback-title {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 111%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    width: 1320px;
+    height: 280px;
+    background: rgba(51, 51, 51, 1);
+    margin: auto;
+}
+
+.photo {
+    height: 280px;
+}
+
+.review-text {
+    width: 885px;
+    height: 280px;
+    padding-left: 60px;
+}
+
+.name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+
+.about {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+/*Footer*/
+
+#footer {
+    width: 100%;
+    height: 268px;
+    background: Black;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 3%;
+    padding-left: 46%;
+    padding-bottom: 8px;
+}
+
+.footer-item {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    padding-left: 46%;
+    padding-bottom: 24px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.path:hover {
+    fill: #5373FD;
+}

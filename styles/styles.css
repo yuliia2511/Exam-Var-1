@@ -4,6 +4,7 @@ html {
 
 * {
     max-width: 100%;
+    max-width: 1920px;
     max-height: 100%;
 }
 
@@ -11,6 +12,7 @@ html {
 
 #header {
     width: 100%;
+    max-width: 1920px;
     height: 862px;
 }
 
@@ -125,6 +127,7 @@ html {
 
 .nav {
     width: 100%;
+    max-width: 1920px;
     height: 84px;
     background-color: #5373FD;
 }
@@ -176,6 +179,7 @@ html {
 
 #why {
     width: 100%;
+    max-width: 1920px;
     height: 704px;
 }
 
@@ -245,6 +249,7 @@ html {
 
 #steps {
     width: 100%;
+    max-width: 1920px;
     height: 306px;
     background: #333333;
 }
@@ -284,6 +289,7 @@ html {
 #book-now-first,
 #book-now-second {
     width: 100%;
+    max-width: 1920px;
     height: 684px;
 }
 
@@ -365,6 +371,7 @@ html {
 
 #feedback {
     width: 100%;
+    max-width: 1920px;
     height: 680px;
 }
 
@@ -427,6 +434,7 @@ html {
 
 #footer {
     width: 100%;
+    max-width: 1920px;
     height: 268px;
     background: Black;
 }
@@ -476,7 +484,7 @@ html {
 
 /*Screen*/
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1026px) {
     .nav-menu {
         padding-left: 17%;
     }
@@ -531,8 +539,11 @@ html {
     }
 
     .about {
-        width: 520px;
         height: 196px;
+    }
+
+    .name {
+        padding-top: 24px;
     }
 
     .footer-title {
@@ -545,7 +556,7 @@ html {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .nav {
         width: 768px;
         height: 136px;
@@ -670,6 +681,89 @@ html {
     .footer-item {
         padding-left: 38%;
     }
+ 
+}
 
-    
+@media only screen and (max-width: 576px) {
+    #search {
+        width: 401px;
+        height: 60px;
+    }
+
+    .why-img {
+        width: 576px;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0px;
+    }
+
+    .first-img {
+        width: 258px;
+        padding-left: 0px;
+    }
+
+    .second-img {
+        width: 258px;
+        padding-left: 0px;
+    }
+
+    .why-title {
+          
+    }
+
+    .why-text {
+        width: 570px;
+    }
+
+    .why-content {
+        padding-left: 1%;
+        width: 576px;
+    }
+
+    #steps {
+        width: 576px;
+    }
+
+    .icon-boxes {
+        width: 576px;
+    }
+
+    .card {
+        width: 540px;
+        height: 376px;
+        
+    }
+
+    .content-first, .content-second {
+        padding-left: 18px;
+    }
+
+    .review {
+        width: 540px;
+        height: 700px;
+    }
+
+    .photo {
+        width: 540px;
+        height: 284px;
+    }
+
+    .about {
+        width: 420px;
+        height: 224px;
+    }
+
+    .review-text {
+        padding-left: 60px;
+        width: 540px;
+        height: 364px;
+    }
+
+    .footer-title {
+        padding-left: 37%;
+    }
+
+    .footer-item {
+        padding-left: 35%;
+    }
 }

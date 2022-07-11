@@ -484,6 +484,49 @@ html {
 
 /*Screen*/
 
+@media only screen and (max-width: 1360.50px) {
+
+.nav {
+    max-width: 1360.50px;
+}
+
+.nav-menu {
+    padding-left: 24%;
+}
+
+.card {
+    width: 558px;
+    height: 372px;
+}
+
+.content-second {
+    padding-left: 56%;
+}
+
+.review {
+    width: 1140px;
+    height: 308px;
+}
+
+.photo {
+    height: 308px;
+}
+
+.review-text {
+    width: 640px;
+    padding-left: 26px;
+}
+
+.footer-title {
+    padding-top: 6%;
+    padding-left: 44.5%;
+}
+
+.footer-item {
+    padding-left: 44%;
+}
+}
+
 @media only screen and (max-width: 1026px) {
     .nav-menu {
         padding-left: 17%;

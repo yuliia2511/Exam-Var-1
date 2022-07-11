@@ -826,9 +826,9 @@ html {
     }
 
     .nav-menu {
-        position: fixed;
+        position: absolute;
         left: -102%;
-        top: 23rem;
+        top: 62rem;
         flex-direction: column;
         background: #5373FD;
         width: 576px;

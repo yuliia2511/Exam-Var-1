@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Josefin+Sans:wght@100&display=swap"
         rel="stylesheet">
+    <link href="dist/hamburgers.css" rel="stylesheet">
     <style>
         #header {
             background: url("img/HeaderBackground.svg");
@@ -113,6 +114,11 @@
                     <a class="nav-link" href="#book-now-first">What We Do</a>
                     <a class="nav-link" href="#feedback">Travel With Us</a>
                     <a class="nav-link" href="#footer">Contact Us</a>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
             </div>
         </nav>
@@ -268,6 +274,28 @@
         </footer>
 
     </div>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+    
+        hamburger.addEventListener("click", mobileMenu);
+    
+        function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+        }
+    
+        const navLink = document.querySelectorAll(".nav-link");
+    
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+    
+        function closeMenu() {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+        }
+    </script>
+    
 
 </body>
 

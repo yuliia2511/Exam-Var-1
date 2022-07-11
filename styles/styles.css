@@ -175,6 +175,20 @@ html {
     text-decoration: none;
 }
 
+.hamburger .bar {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
 /*Section 'Why'*/
 
 #why {
@@ -486,45 +500,45 @@ html {
 
 @media only screen and (max-width: 1360.50px) {
 
-.nav {
-    max-width: 1360.50px;
-}
+    .nav {
+        max-width: 1360.50px;
+    }
 
-.nav-menu {
-    padding-left: 24%;
-}
+    .nav-menu {
+        padding-left: 24%;
+    }
 
-.card {
-    width: 558px;
-    height: 372px;
-}
+    .card {
+        width: 558px;
+        height: 372px;
+    }
 
-.content-second {
-    padding-left: 56%;
-}
+    .content-second {
+        padding-left: 56%;
+    }
 
-.review {
-    width: 1140px;
-    height: 308px;
-}
+    .review {
+        width: 1140px;
+        height: 308px;
+    }
 
-.photo {
-    height: 308px;
-}
+    .photo {
+        height: 308px;
+    }
 
-.review-text {
-    width: 640px;
-    padding-left: 26px;
-}
+    .review-text {
+        width: 640px;
+        padding-left: 26px;
+    }
 
-.footer-title {
-    padding-top: 6%;
-    padding-left: 44.5%;
-}
+    .footer-title {
+        padding-top: 6%;
+        padding-left: 44.5%;
+    }
 
-.footer-item {
-    padding-left: 44%;
-}
+    .footer-item {
+        padding-left: 44%;
+    }
 }
 
 @media only screen and (max-width: 1026px) {
@@ -724,7 +738,7 @@ html {
     .footer-item {
         padding-left: 38%;
     }
- 
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -750,10 +764,6 @@ html {
         padding-left: 0px;
     }
 
-    .why-title {
-          
-    }
-
     .why-text {
         width: 570px;
     }
@@ -774,10 +784,11 @@ html {
     .card {
         width: 540px;
         height: 376px;
-        
+
     }
 
-    .content-first, .content-second {
+    .content-first,
+    .content-second {
         padding-left: 18px;
     }
 
@@ -808,5 +819,67 @@ html {
 
     .footer-item {
         padding-left: 35%;
+    }
+
+    .nav {
+        width: 576px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -102%;
+        top: 23rem;
+        flex-direction: column;
+        background: #5373FD;
+        width: 576px;
+        height: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+        
+    }
+
+    .nav-title {
+        padding-bottom: 0px;
+    }
+
+    .nav-items {
+        display: flex;
+        flex-direction: row;
+        padding-top: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hamburger>.bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #fff;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
